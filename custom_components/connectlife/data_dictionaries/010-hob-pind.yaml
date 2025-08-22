@@ -1,52 +1,53 @@
 ---
+properties:
 - property: Air_dry_function
 - property: Alarm_Grease_filter
 - property: Alarm_NTC_TC
   binary_sensor:
     device_class: problem
     options:
-      '0': 'off'
-      '1': 'on'
+      0: 'off'
+      1: 'on'
 - property: Alarm_NTC_coil_overheating
   icon: mdi:alert
   binary_sensor:
     device_class: problem
     options:
-      '0': 'off'
-      '1': 'on'
+      0: 'off'
+      1: 'on'
 - property: Alarm_NTC_power
   binary_sensor:
     device_class: problem
     options:
-      '0': 'off'
-      '1': 'on'
+      0: 'off'
+      1: 'on'
 - property: Alarm_Recirculation_filter_1
 - property: Alarm_auto_program_ended
 - property: Alarm_automatic_switch_off_zone
   binary_sensor:
     device_class: problem
     options:
-      '0': 'off'
-      '1': 'on'
+      0: 'off'
+      1: 'on'
 - property: Alarm_hob_hood_started
 - property: Alarm_timer_ended
   binary_sensor:
     device_class: problem
     options:
-      '0': 'off'
-      '1': 'on'
+      0: 'off'
+      1: 'on'
 - property: Alarm_voltage
   binary_sensor:
     device_class: problem
     options:
-      '0': 'off'
-      '1': 'on'
+      0: 'off'
+      1: 'on'
 - property: Alarm_zone_turned_off
   binary_sensor:
     device_class: problem
     options:
-      '0': 'off'
-      '1': 'on'
+      0: 'off'
+      1: 'on'
 - property: Auto_Grease_filter_indication
 - property: Auto_Tower_Up
 - property: Auto_boost
@@ -58,8 +59,8 @@
   binary_sensor:
     device_class: lock
     options:
-      '8131': 'off'
-      '8132': 'on'
+      8131: 'off'
+      8132: 'on'
 - property: Circulation_mode
 - property: Circulation_mode__set_flag
 - property: Control_Response_Level
@@ -68,21 +69,21 @@
   sensor:
     device_class: enum
     options:
-      '8011': idle
-      '8012': service
-      '8013': production
-      '8014': demo_mode
-      '8015': iq
-      '8016': running
-      '8017': failure
-      '8018': stand_by
-      '8019': pause_mode
-      '8020': locked
+      8011: idle
+      8012: service
+      8013: production
+      8014: demo_mode
+      8015: iq
+      8016: running
+      8017: failure
+      8018: stand_by
+      8019: pause_mode
+      8020: locked
 - property: ECO_mode
   binary_sensor:
     options:
-      '8201': 'off'
-      '8202': 'on'
+      8201: 'off'
+      8202: 'on'
 - property: Error_1
 - property: Error_10
 - property: Error_11
@@ -140,35 +141,35 @@
   sensor:
     device_class: enum
     options:
-      '0': inactive
-      '1': stopwatch
-      '2': timer
+      0: inactive
+      1: stopwatch
+      2: timer
 - property: SL1_Alarm_NTC_coil
 - property: SL1_Alarm_auto_program_notification
   binary_sensor:
     options:
-      '0': 'off'
-      '1': 'on'
+      0: 'off'
+      1: 'on'
 - property: SL1_Alarm_automatic_switch_off_zone
   binary_sensor:
     options:
-      '0': 'off'
-      '1': 'on'
+      0: 'off'
+      1: 'on'
 - property: SL1_Alarm_timer_ended
   binary_sensor:
     options:
-      '0': 'off'
-      '1': 'on'
+      0: 'off'
+      1: 'on'
 - property: SL1_Alarm_zone_turned_off
   binary_sensor:
     options:
-      '0': 'off'
-      '1': 'on'
+      0: 'off'
+      1: 'on'
 - property: SL1_Bridge_function_active
   binary_sensor:
     options:
-      '0': 'off'
-      '1': 'on'
+      0: 'off'
+      1: 'on'
 - property: SL1_Bridged_to_zone
 - property: SL1_Cooking_method
 - property: SL1_Function_status
@@ -176,13 +177,13 @@
   sensor:
     device_class: enum
     options:
-      '8166': none
-      '8167': boil
-      '8168': simmer
-      '8169': keep_warm
-      '8170': wok
-      '8171': roast
-      '8172': grill
+      8166: none
+      8167: boil
+      8168: simmer
+      8169: keep_warm
+      8170: wok
+      8171: roast
+      8172: grill
 - property: SL1_Hestan_Cue_Set_Temperature
 - property: SL1_Hestan_Cue_Temperature
 - property: SL1_Hestan_Cue_cookware_type
@@ -191,8 +192,8 @@
 - property: SL1_Pot_detected
   binary_sensor:
     options:
-      '8126': 'on'
-      '8127': 'off'
+      8126: 'on'
+      8127: 'off'
 - property: SL1_Power_level
 - property: SL1_Residual_heat_signal
 - property: SL1_Sand_timer_UTC_start_time_hours
@@ -203,8 +204,8 @@
 - property: SL1_Status
   binary_sensor:
     options:
-      '0': 'off'
-      '1': 'on'
+      0: 'off'
+      1: 'on'
 - property: SL1_Stopwatch_UTC_start_time_hours
 - property: SL1_Stopwatch_UTC_start_time_minutes
 - property: SL1_Stopwatch_UTC_start_time_seconds
@@ -238,35 +239,35 @@
   sensor:
     device_class: enum
     options:
-      '0': inactive
-      '1': stopwatch
-      '2': timer
+      0: inactive
+      1: stopwatch
+      2: timer
 - property: SL2_Alarm_NTC_coil
 - property: SL2_Alarm_auto_program_notification
   binary_sensor:
     options:
-      '0': 'off'
-      '1': 'on'
+      0: 'off'
+      1: 'on'
 - property: SL2_Alarm_automatic_switch_off_zone
   binary_sensor:
     options:
-      '0': 'off'
-      '1': 'on'
+      0: 'off'
+      1: 'on'
 - property: SL2_Alarm_timer_ended
   binary_sensor:
     options:
-      '0': 'off'
-      '1': 'on'
+      0: 'off'
+      1: 'on'
 - property: SL2_Alarm_zone_turned_off
   binary_sensor:
     options:
-      '0': 'off'
-      '1': 'on'
+      0: 'off'
+      1: 'on'
 - property: SL2_Bridge_function_active
   binary_sensor:
     options:
-      '0': 'off'
-      '1': 'on'
+      0: 'off'
+      1: 'on'
 - property: SL2_Bridged_to_zone
 - property: SL2_Cooking_method
 - property: SL2_Function_status
@@ -274,13 +275,13 @@
   sensor:
     device_class: enum
     options:
-      '8166': none
-      '8167': boil
-      '8168': simmer
-      '8169': keep_warm
-      '8170': wok
-      '8171': roast
-      '8172': grill
+      8166: none
+      8167: boil
+      8168: simmer
+      8169: keep_warm
+      8170: wok
+      8171: roast
+      8172: grill
 - property: SL2_Hestan_Cue_Set_Temperature
 - property: SL2_Hestan_Cue_Temperature
 - property: SL2_Hestan_Cue_cookware_type
@@ -289,8 +290,8 @@
 - property: SL2_Pot_detected
   binary_sensor:
     options:
-      '8126': 'on'
-      '8127': 'off'
+      8126: 'on'
+      8127: 'off'
 - property: SL2_Power_level
 - property: SL2_Residual_heat_signal
 - property: SL2_Sand_timer_UTC_start_time_hours
@@ -301,8 +302,8 @@
 - property: SL2_Status
   binary_sensor:
     options:
-      '0': 'off'
-      '1': 'on'
+      0: 'off'
+      1: 'on'
 - property: SL2_Stopwatch_UTC_start_time_hours
 - property: SL2_Stopwatch_UTC_start_time_minutes
 - property: SL2_Stopwatch_UTC_start_time_seconds
@@ -336,35 +337,35 @@
   sensor:
     device_class: enum
     options:
-      '0': inactive
-      '1': stopwatch
-      '2': timer
+      0: inactive
+      1: stopwatch
+      2: timer
 - property: SL3_Alarm_NTC_coil
 - property: SL3_Alarm_auto_program_notification
   binary_sensor:
     options:
-      '0': 'off'
-      '1': 'on'
+      0: 'off'
+      1: 'on'
 - property: SL3_Alarm_automatic_switch_off_zone
   binary_sensor:
     options:
-      '0': 'off'
-      '1': 'on'
+      0: 'off'
+      1: 'on'
 - property: SL3_Alarm_timer_ended
   binary_sensor:
     options:
-      '0': 'off'
-      '1': 'on'
+      0: 'off'
+      1: 'on'
 - property: SL3_Alarm_zone_turned_off
   binary_sensor:
     options:
-      '0': 'off'
-      '1': 'on'
+      0: 'off'
+      1: 'on'
 - property: SL3_Bridge_function_active
   binary_sensor:
     options:
-      '0': 'off'
-      '1': 'on'
+      0: 'off'
+      1: 'on'
 - property: SL3_Bridged_to_zone
 - property: SL3_Cooking_method
 - property: SL3_Function_status
@@ -372,13 +373,13 @@
   sensor:
     device_class: enum
     options:
-      '8166': none
-      '8167': boil
-      '8168': simmer
-      '8169': keep_warm
-      '8170': wok
-      '8171': roast
-      '8172': grill
+      8166: none
+      8167: boil
+      8168: simmer
+      8169: keep_warm
+      8170: wok
+      8171: roast
+      8172: grill
 - property: SL3_Hestan_Cue_Set_Temperature
 - property: SL3_Hestan_Cue_Temperature
 - property: SL3_Hestan_Cue_cookware_type
@@ -387,8 +388,8 @@
 - property: SL3_Pot_detected
   binary_sensor:
     options:
-      '8126': 'on'
-      '8127': 'off'
+      8126: 'on'
+      8127: 'off'
 - property: SL3_Power_level
 - property: SL3_Residual_heat_signal
 - property: SL3_Sand_timer_UTC_start_time_hours
@@ -399,8 +400,8 @@
 - property: SL3_Status
   binary_sensor:
     options:
-      '0': 'off'
-      '1': 'on'
+      0: 'off'
+      1: 'on'
 - property: SL3_Stopwatch_UTC_start_time_hours
 - property: SL3_Stopwatch_UTC_start_time_minutes
 - property: SL3_Stopwatch_UTC_start_time_seconds
@@ -434,35 +435,35 @@
   sensor:
     device_class: enum
     options:
-      '0': inactive
-      '1': stopwatch
-      '2': timer
+      0: inactive
+      1: stopwatch
+      2: timer
 - property: SL4_Alarm_NTC_coil
 - property: SL4_Alarm_auto_program_notification
   binary_sensor:
     options:
-      '0': 'off'
-      '1': 'on'
+      0: 'off'
+      1: 'on'
 - property: SL4_Alarm_automatic_switch_off_zone
   binary_sensor:
     options:
-      '0': 'off'
-      '1': 'on'
+      0: 'off'
+      1: 'on'
 - property: SL4_Alarm_timer_ended
   binary_sensor:
     options:
-      '0': 'off'
-      '1': 'on'
+      0: 'off'
+      1: 'on'
 - property: SL4_Alarm_zone_turned_off
   binary_sensor:
     options:
-      '0': 'off'
-      '1': 'on'
+      0: 'off'
+      1: 'on'
 - property: SL4_Bridge_function_active
   binary_sensor:
     options:
-      '0': 'off'
-      '1': 'on'
+      0: 'off'
+      1: 'on'
 - property: SL4_Bridged_to_zone
 - property: SL4_Cooking_method
 - property: SL4_Function_status
@@ -470,13 +471,13 @@
   sensor:
     device_class: enum
     options:
-      '8166': none
-      '8167': boil
-      '8168': simmer
-      '8169': keep_warm
-      '8170': wok
-      '8171': roast
-      '8172': grill
+      8166: none
+      8167: boil
+      8168: simmer
+      8169: keep_warm
+      8170: wok
+      8171: roast
+      8172: grill
 - property: SL4_Hestan_Cue_Set_Temperature
 - property: SL4_Hestan_Cue_Temperature
 - property: SL4_Hestan_Cue_cookware_type
@@ -485,8 +486,8 @@
 - property: SL4_Pot_detected
   binary_sensor:
     options:
-      '8126': 'on'
-      '8127': 'off'
+      8126: 'on'
+      8127: 'off'
 - property: SL4_Power_level
 - property: SL4_Residual_heat_signal
 - property: SL4_Sand_timer_UTC_start_time_hours
@@ -497,8 +498,8 @@
 - property: SL4_Status
   binary_sensor:
     options:
-      '0': 'off'
-      '1': 'on'
+      0: 'off'
+      1: 'on'
 - property: SL4_Stopwatch_UTC_start_time_hours
 - property: SL4_Stopwatch_UTC_start_time_minutes
 - property: SL4_Stopwatch_UTC_start_time_seconds
@@ -532,35 +533,35 @@
   sensor:
     device_class: enum
     options:
-      '0': inactive
-      '1': stopwatch
-      '2': timer
+      0: inactive
+      1: stopwatch
+      2: timer
 - property: SL5_Alarm_NTC_coil
 - property: SL5_Alarm_auto_program_notification
   binary_sensor:
     options:
-      '0': 'off'
-      '1': 'on'
+      0: 'off'
+      1: 'on'
 - property: SL5_Alarm_automatic_switch_off_zone
   binary_sensor:
     options:
-      '0': 'off'
-      '1': 'on'
+      0: 'off'
+      1: 'on'
 - property: SL5_Alarm_timer_ended
   binary_sensor:
     options:
-      '0': 'off'
-      '1': 'on'
+      0: 'off'
+      1: 'on'
 - property: SL5_Alarm_zone_turned_off
   binary_sensor:
     options:
-      '0': 'off'
-      '1': 'on'
+      0: 'off'
+      1: 'on'
 - property: SL5_Bridge_function_active
   binary_sensor:
     options:
-      '0': 'off'
-      '1': 'on'
+      0: 'off'
+      1: 'on'
 - property: SL5_Bridged_to_zone
 - property: SL5_Cooking_method
 - property: SL5_Function_status
@@ -568,13 +569,13 @@
   sensor:
     device_class: enum
     options:
-      '8166': none
-      '8167': boil
-      '8168': simmer
-      '8169': keep_warm
-      '8170': wok
-      '8171': roast
-      '8172': grill
+      8166: none
+      8167: boil
+      8168: simmer
+      8169: keep_warm
+      8170: wok
+      8171: roast
+      8172: grill
 - property: SL5_Hestan_Cue_Set_Temperature
 - property: SL5_Hestan_Cue_Temperature
 - property: SL5_Hestan_Cue_cookware_type
@@ -583,8 +584,8 @@
 - property: SL5_Pot_detected
   binary_sensor:
     options:
-      '8126': 'on'
-      '8127': 'off'
+      8126: 'on'
+      8127: 'off'
 - property: SL5_Power_level
 - property: SL5_Residual_heat_signal
 - property: SL5_Sand_timer_UTC_start_time_hours
@@ -595,8 +596,8 @@
 - property: SL5_Status
   binary_sensor:
     options:
-      '0': 'off'
-      '1': 'on'
+      0: 'off'
+      1: 'on'
 - property: SL5_Stopwatch_UTC_start_time_hours
 - property: SL5_Stopwatch_UTC_start_time_minutes
 - property: SL5_Stopwatch_UTC_start_time_seconds
@@ -630,35 +631,35 @@
   sensor:
     device_class: enum
     options:
-      '0': inactive
-      '1': stopwatch
-      '2': timer
+      0: inactive
+      1: stopwatch
+      2: timer
 - property: SL6_Alarm_NTC_coil
 - property: SL6_Alarm_auto_program_notification
   binary_sensor:
     options:
-      '0': 'off'
-      '1': 'on'
+      0: 'off'
+      1: 'on'
 - property: SL6_Alarm_automatic_switch_off_zone
   binary_sensor:
     options:
-      '0': 'off'
-      '1': 'on'
+      0: 'off'
+      1: 'on'
 - property: SL6_Alarm_timer_ended
   binary_sensor:
     options:
-      '0': 'off'
-      '1': 'on'
+      0: 'off'
+      1: 'on'
 - property: SL6_Alarm_zone_turned_off
   binary_sensor:
     options:
-      '0': 'off'
-      '1': 'on'
+      0: 'off'
+      1: 'on'
 - property: SL6_Bridge_function_active
   binary_sensor:
     options:
-      '0': 'off'
-      '1': 'on'
+      0: 'off'
+      1: 'on'
 - property: SL6_Bridged_to_zone
 - property: SL6_Cooking_method
 - property: SL6_Function_status
@@ -666,13 +667,13 @@
   sensor:
     device_class: enum
     options:
-      '8166': none
-      '8167': boil
-      '8168': simmer
-      '8169': keep_warm
-      '8170': wok
-      '8171': roast
-      '8172': grill
+      8166: none
+      8167: boil
+      8168: simmer
+      8169: keep_warm
+      8170: wok
+      8171: roast
+      8172: grill
 - property: SL6_Hestan_Cue_Set_Temperature
 - property: SL6_Hestan_Cue_Temperature
 - property: SL6_Hestan_Cue_cookware_type
@@ -681,8 +682,8 @@
 - property: SL6_Pot_detected
   binary_sensor:
     options:
-      '8126': 'on'
-      '8127': 'off'
+      8126: 'on'
+      8127: 'off'
 - property: SL6_Power_level
 - property: SL6_Residual_heat_signal
 - property: SL6_Sand_timer_UTC_start_time_hours
@@ -693,8 +694,8 @@
 - property: SL6_Status
   binary_sensor:
     options:
-      '0': 'off'
-      '1': 'on'
+      0: 'off'
+      1: 'on'
 - property: SL6_Stopwatch_UTC_start_time_hours
 - property: SL6_Stopwatch_UTC_start_time_minutes
 - property: SL6_Stopwatch_UTC_start_time_seconds
