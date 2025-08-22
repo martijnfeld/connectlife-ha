@@ -15,6 +15,7 @@
 |                   | Air conditioner          | 009              | 117                  |
 |                   | Air conditioner          | 009              | 128                  |
 |                   | Air conditioner          | 009              | 129                  |
+| hi29571svl        | Induction hob            | 010              | hob-pind             |
 |                   | Hood                     | 012              | 000                  |
 | W-DW50/60-22      | Dishwasher               | 015              | 000                  |
 | Gorenje GS673B60W | Dishwasher               | 015              | dishwasher-50.2f     |
